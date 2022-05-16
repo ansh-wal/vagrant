@@ -3,7 +3,7 @@
 ### 1 - Install dependencies (Docker, VsCode, Vagrant, Ansible)
 
   1. Download and install [Docker](https://docs.docker.com/get-docker/).
-  2. Download and install [VsCode] (https://code.visualstudio.com/download).
+  2. Download and install [VSCode](https://code.visualstudio.com/download).
   3. Download and install [Vagrant](http://www.vagrantup.com/downloads.html).
   4. [Mac/Linux only] Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
   5. Run `ansible-galaxy install -r requirements.yml` in this directory to get the required Ansible roles.
@@ -30,3 +30,5 @@
 Note for Windows users: *This guide assumes you're on a Mac or Linux host. Windows hosts are unsupported at this time.*
 
 ### 2 - Run Application
+  1. Open Remote Explorer in VSCode, select node, while selecting path, put `/vagrant`
+  2. Run `nodemon app.js`
